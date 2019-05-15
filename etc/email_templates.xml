@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the commercial license
+ * that is bundled with this package in the file LICENSE.txt.
+ *
+ * @category Excellence
+ * @package Excellence_EmailAttachment
+
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Email:etc/email_templates.xsd">
+    <template id="excellence_test_attachment"
+              label="Excellence Test Attachment"
+              file="test-attachment.html"
+              type="html"
+              module="Excellence_EmailAttachment"
+              area="frontend"/>
+</config>
