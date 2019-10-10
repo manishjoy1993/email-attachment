@@ -174,6 +174,15 @@ class Message implements \Magento\Framework\Mail\MailMessageInterface
     }
 
     /**
+     * @inheritdoc
+     */
+    public function setFromAddress($fromAddress, $fromName = null)
+    {
+        $this->zendMessage->setFrom($fromAddress, $fromName);
+        return $this;
+    }
+
+    /**
      * {@inheritdoc}
      */
     public function addTo($toAddress)
