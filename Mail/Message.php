@@ -227,6 +227,7 @@ class Message implements \Magento\Framework\Mail\MailMessageInterface
      */
     public function getRawMessage()
     {
+        $this->setPartsToBody();
         return $this->zendMessage->toString();
     }
 
